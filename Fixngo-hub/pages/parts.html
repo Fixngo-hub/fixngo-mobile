@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ro">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Piese GSM — Fixngo mobile</title><link rel="stylesheet" href="../css/styles.css"/></head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand"><div class="logo">F</div><div><div style="font-weight:900">Fixngo mobile</div><div class="muted" style="font-size:13px">Piese GSM</div></div></div>
+      <nav class="nav"><a href="../index.html">Acasă</a><a href="accessories.html">Accesorii</a><a href="parts.html">Piese GSM</a><a href="checkout.html">Coș</a><a href="contact.html">Contact</a><a href="payments.html">Plată & Livrare</a></nav>
+      <div class="actions"><div class="search"><input id="searchInput" placeholder="Caută piese..."></div><button id="openCartBtn" class="cart-btn">Coș (<span id="cartCount">0</span>)</button></div>
+    </header>
+
+    <main style="margin-top:16px">
+      <h1>Piese GSM</h1>
+      <p class="muted">Display-uri, baterii, conectori, componente pentru service.</p>
+      <div id="grid" class="grid" style="margin-top:12px"></div>
+    </main>
+
+    <footer class="footer"><div>© Fixngo mobile</div><div class="muted">Piese compatibile și original</div></footer>
+  </div>
+  <script src="../js/app.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', function(){ App.renderGrid('grid','piese'); App.init(); });</script>
+</body>
+</html>

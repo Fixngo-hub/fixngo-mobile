@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ro">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Contact — Fixngo mobile</title><link rel="stylesheet" href="../css/styles.css"/></head>
+<body>
+  <div class="container">
+    <header class="header"><div class="brand"><div class="logo">F</div><div><div style="font-weight:900">Fixngo mobile</div></div></div>
+    <nav class="nav"><a href="../index.html">Acasă</a><a href="accessories.html">Accesorii</a><a href="parts.html">Piese GSM</a><a href="checkout.html">Coș</a><a href="contact.html">Contact</a><a href="payments.html">Plată & Livrare</a></nav>
+    <div class="actions"><button id="openCartBtn" class="cart-btn">Coș (<span id="cartCount">0</span>)</button></div></header>
+
+    <main style="margin-top:16px">
+      <h1>Contact</h1>
+      <p class="muted">Completează formularul și îți vom răspunde în maxim 24h (demo).</p>
+      <form id="contactForm" style="display:grid;gap:8px;max-width:640px">
+        <input id="cname" class="input" placeholder="Nume complet" required />
+        <input id="cemail" class="input" placeholder="Email" required />
+        <textarea id="cmsg" class="input" rows="5" placeholder="Mesaj"></textarea>
+        <div style="display:flex;gap:8px"><button class="btn btn-primary" type="submit">Trimite</button><button class="btn" type="button" onclick="document.getElementById('contactForm').reset()">Resetează</button></div>
+      </form>
+    </main>
+
+    <footer class="footer"><div>© Fixngo mobile</div><div class="muted">Suntem aici să te ajutăm</div></footer>
+  </div>
+  <script src="../js/app.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', function(){ App.init && App.init(); document.getElementById('contactForm').addEventListener('submit', function(e){ e.preventDefault(); alert('Mulțumim! Mesaj trimis (demo).'); e.target.reset(); }); });</script>
+</body>
+</html>

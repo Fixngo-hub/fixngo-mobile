@@ -1,0 +1,86 @@
+[
+  {
+    "id": 101,
+    "title": "Încărcător rapid 25W",
+    "cat": "accesorii",
+    "price": 99.9,
+    "img": "img/charger.png"
+  },
+  {
+    "id": 102,
+    "title": "Cablu USB-C 1m",
+    "cat": "accesorii",
+    "price": 29.9,
+    "img": "img/cable.png"
+  },
+  {
+    "id": 103,
+    "title": "Husă Silicone Clear",
+    "cat": "accesorii",
+    "price": 39.9,
+    "img": "img/case.png"
+  },
+  {
+    "id": 104,
+    "title": "Power Bank 10000 mAh",
+    "cat": "accesorii",
+    "price": 129.0,
+    "img": "img/powerbank.png"
+  },
+  {
+    "id": 201,
+    "title": "Display smartphone (compatibil)",
+    "cat": "piese",
+    "price": 249.0,
+    "img": "img/display.png"
+  },
+  {
+    "id": 202,
+    "title": "Baterie compatibilă 3000mAh",
+    "cat": "piese",
+    "price": 89.9,
+    "img": "img/battery.png"
+  },
+  {
+    "id": 203,
+    "title": "Difuzor extern (speaker)",
+    "cat": "piese",
+    "price": 69.9,
+    "img": "img/speaker.png"
+  },
+  {
+    "id": 204,
+    "title": "Conector încărcare (micro USB/USB-C)",
+    "cat": "piese",
+    "price": 49.0,
+    "img": "img/connector.png"
+  },
+  {
+    "id": 301,
+    "title": "Telefon Nou - Model A (128GB)",
+    "cat": "telefoane",
+    "price": 1499.0,
+    "img": "img/phone1.png"
+  },
+  {
+    "id": 302,
+    "title": "Telefon Refurbished - Model B (64GB)",
+    "cat": "telefoane",
+    "price": 799.0,
+    "img": "img/phone2.png"
+  },
+  {
+    "id": 303,
+    "title": "Telefon Nou - Model C (256GB)",
+    "cat": "telefoane",
+    "price": 1999.0,
+    "img": "img/phone3.png"
+  },
+  {
+    "id": 304,
+    "title": "Smartwatch compatibil",
+    "cat": "accesorii",
+    "price": 249.0,
+    "img": "img/watch.png"
+  }
+]

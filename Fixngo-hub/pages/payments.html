@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ro">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Plată & Livrare — Fixngo mobile</title><link rel="stylesheet" href="../css/styles.css"/></head>
+<body>
+  <div class="container">
+    <header class="header"><div class="brand"><div class="logo">F</div><div><div style="font-weight:900">Fixngo mobile</div></div></div>
+    <nav class="nav"><a href="../index.html">Acasă</a><a href="accessories.html">Accesorii</a><a href="parts.html">Piese GSM</a><a href="checkout.html">Coș</a><a href="contact.html">Contact</a><a href="payments.html">Plată & Livrare</a></nav>
+    <div class="actions"><button id="openCartBtn" class="cart-btn">Coș (<span id="cartCount">0</span>)</button></div></header>
+
+    <main style="margin-top:16px">
+      <h1>Plată & Livrare</h1>
+      <section style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:12px">
+        <div style="background:white;padding:16px;border-radius:12px;box-shadow:0 8px 24px rgba(16,24,40,0.04)"><h3>Metode de plată</h3><ul class="muted"><li><strong>Card online:</strong> Integrare Stripe/PayU - recomandat</li><li><strong>Ramburs:</strong> Plata la livrare</li><li><strong>Transfer:</strong> Transfer bancar</li></ul></div>
+        <div style="background:white;padding:16px;border-radius:12px;box-shadow:0 8px 24px rgba(16,24,40,0.04)"><h3>Livrare</h3><ul class="muted"><li><strong>Curier rapid:</strong> 24-72h (cost estimat)</li><li><strong>Curier economic:</strong> 3-7 zile</li><li><strong>Ridicare personală:</strong> Gratuit</li></ul></div>
+      </section>
+    </main>
+
+    <footer class="footer"><div>© Fixngo mobile</div><div class="muted">Configurați plăți în backend pentru comenzi reale</div></footer>
+  </div>
+  <script src="../js/app.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', function(){ App.init && App.init(); });</script>
+</body>
+</html>
